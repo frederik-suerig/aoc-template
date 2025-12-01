@@ -1,4 +1,4 @@
-package math
+package helpers
 
 // SignedInteger is a constraint for signed integer types.
 type SignedInteger interface {

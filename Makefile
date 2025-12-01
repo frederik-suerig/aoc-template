@@ -125,4 +125,4 @@ run:
 COOKIE := $(if $(c),$(c),$(if $(cookie),$(cookie),$(AOC_COOKIE)))
 
 create:
-	go run main.go create --year $(YEAR) --day $(DAY) --workdir $(CURDIR)$(if $(COOKIE), --cookie "$(COOKIE)",)
+	@go run main.go create --year $(YEAR) --day $(DAY) --workdir $(CURDIR)$(if $(COOKIE), --cookie "$(COOKIE)",)
