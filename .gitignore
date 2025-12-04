@@ -1,0 +1,19 @@
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Editor/IDE
+.idea/
+.vscode/
+
+# Don't publish your advent of code inputs per request of Eric Wastl (see https://adventofcode.com/2025/about)
+.input
